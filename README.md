@@ -27,7 +27,7 @@ to say /usr/local, simply execute "make install PREFIX=/usr/local".
 ## Limitations
 
 To migrate an instance to RAM, you'll need a trimmed-down root filesystem and enough RAM in which
-to store it.  There is presently a 1152M size limit on the ZRAM device.  This allows migrating a
+to store it.  There is presently a 1.5G size limit on the ZRAM device.  This allows migrating a
 root filesystem which is 1G in size on an instance with only 1G of RAM, allowing a very small
 amount of wiggle room.
 
